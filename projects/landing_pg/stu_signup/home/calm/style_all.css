@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d6e0f5b2;
+    margin: 0;
+    padding: 0;
+}
+
+.guided-meditation {
+    width:80%;
+    height:46vw;
+    margin: 20px auto;
+    padding: 20px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #b1b1b1,-20px -20px 60px #ffffff;
+  border-radius: 50px;   
+  margin-top: 3.5vw; 
+}
+
+.guided-header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #395886;
+    font-size: 1.5vw;
+}
+
+.guided-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.meditation-player {
+    margin-bottom: 20px;
+}
+
+.meditation-description {
+    text-align: center;
+}
+.meditation-description h2{
+    color: #233653;
+}
+.meditation-description ul{
+    text-align: left;
+    line-height: 1.5vw;
+    list-style: none;
+    color: #305285;
+}
+
+.guided-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-back {
+    background-color: #395886;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-back:hover {
+    background-color: #29455c;
+}
